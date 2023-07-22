@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #AAC8A7;
+    background-image: linear-gradient(90deg,
+            hsl(0deg 11% 25%) 0%,
+            hsl(11deg 9% 35%) 19%,
+            hsl(19deg 8% 44%) 27%,
+            hsl(28deg 7% 55%) 34%,
+            hsl(35deg 11% 65%) 41%,
+            hsl(39deg 20% 72%) 47%,
+            hsl(43deg 34% 80%) 53%,
+            hsl(48deg 65% 87%) 59%,
+            hsl(42deg 100% 92%) 66%,
+            hsl(33deg 100% 95%) 73%,
+            hsl(20deg 100% 97%) 81%,
+            hsl(0deg 100% 99%) 100%);
+}
+
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 300px;
+    padding: 15px 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.18);
+    background-image: linear-gradient(35deg,
+            hsl(0deg 92% 86%) 0%,
+            hsl(0deg 92% 87%) 8%,
+            hsl(0deg 91% 89%) 13%,
+            hsl(0deg 91% 90%) 18%,
+            hsl(0deg 91% 92%) 23%,
+            hsl(0deg 91% 93%) 28%,
+            hsl(0deg 91% 94%) 33%,
+            hsl(0deg 91% 95%) 37%,
+            hsl(0deg 91% 97%) 42%,
+            hsl(0deg 91% 98%) 46%,
+            hsl(0deg 91% 99%) 51%,
+            hsl(0deg 0% 100%) 55%,
+            hsl(246deg 0% 95%) 60%,
+            hsl(246deg 0% 91%) 64%,
+            hsl(246deg 0% 85%) 68%,
+            hsl(246deg 0% 80%) 73%,
+            hsl(246deg 0% 74%) 77%,
+            hsl(246deg 0% 68%) 81%,
+            hsl(246deg 0% 61%) 85%,
+            hsl(246deg 0% 53%) 89%,
+            hsl(246deg 1% 43%) 93%,
+            hsl(246deg 1% 31%) 97%,
+            hsl(248deg 17% 9%) 100%);
+    border-radius: 10px;
+}
+
+.display {
+    position: relative;
+    width: 80%;
+    height: 80px;
+    margin-bottom: 10px
+}
+
+.display #result {
+    font-size: 2em
+}
+
+.buttons {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.buttons button {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1.3em;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3),
+        -5px -5px 15px rgba(255, 255, 255, 0.1)
+}
+
+.buttons button:hover {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+#equalTo {
+    width: 125px;
+    background: #58D68D
+}
+
+#All-clear {
+    background: #FF8A65
+}
+
+.dark_mode_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none
+}
+
+.dark_mode_active {
+    background: #1c1c25
+}
+
+.dark_mode_active button {
+    color: #ddd
+}
+
+.dark_mode_active #clear,
+#equalTo {
+    color: #000
+}
+
+.dark_mode_active #result {
+    color: #ddd
+}
+
+.dark_mode_active #history {
+    color: #ddd
+}
+
+#history {
+    position: absolute;
+    bottom: 5px;
+    right: 0
+}
+
+#All-clear:hover {
+    transition: transform 0.2s;
+    transform: scale(0.9);
+}
+
+p:hover {
+    transition: transform 0.2s;
+    transform: scale(1.2);
+}
+
+#equalTo:hover {
+    transition: transform 0.2s;
+    transform: scale(0.9);
+}

@@ -1,0 +1,543 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #333;
+
+    background-color: #D4E2D4;
+    background-color: #E9B384;
+    background-color: #DBC4F0;
+}
+
+
+div.col-lg-4.offset-lg-1.p-0.overflow-hidden.shadow-lg {
+    text-align: center;
+}
+
+
+p {
+    line-height: 2;
+    color: #40514E;
+}
+
+body>section:nth-child(3)>div {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+
+.second>div>div>div>h1 {
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+body>section.third>div>div>div {
+    background-color: rgb(61, 226, 53);
+}
+
+body>section:nth-child(4)>div>h2 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+body>section:nth-child(4)>div {
+    text-align: center;
+}
+
+.Contact-message {
+    /* margin-bottom: 50px; */
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+body>section:nth-child(3)>div {
+    background-color: #EAF6F6;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 0px 1px 3px #474247;
+    -webkit-box-shadow: 0px 2px 4px #626161;
+    -moz-box-shadow: 0px 2px 4px #666666;
+    box-shadow: 0px 2px 4px #666666;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.copyright {
+    color: #EAF6F6;
+    margin-bottom: 0;
+    padding: 20px 0;
+    word-spacing: normal;
+    font-size: 0.75rem;
+}
+
+body>section.second>div>div {
+    background-color: #F4F1DE;
+}
+
+/* CSS for the contact section */
+.container.contact-me {
+    background-image: linear-gradient(to bottom, #B9E1E1, #66BFBF);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    /* Set text color to white for better contrast on the gradient */
+}
+
+/* CSS for the bottom-container section */
+/* CSS for the bottom-container section */
+.bottom-container {
+    background-color: #F4F1DE;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2;
+    word-spacing: 20px;
+}
+
+/* Style for footer links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    color: #333;
+    /* Dark gray color for the links */
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.footer-link:hover {
+    color: #66BFBF;
+    /* Teal color when hovered */
+}
+
+/* Style for the copyright text */
+.copyright {
+    color: #666;
+    /* Slightly darker gray color for the copyright text */
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* CSS for the custom color classes */
+.bg-teal {
+    background-color: #66BFBF;
+}
+
+.bg-soft-orange {
+    background-color: #E2B4B3;
+}
+
+.bg-soft-blue {
+    background-color: #6FB1C4;
+}
+
+/* CSS for fade-in animation */
+.fade-in {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+.fade-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* CSS for slide-up animation */
+.second {
+    transform: translateY(50px);
+    transition: transform 1s ease, opacity 1s ease, visibility 1s ease;
+}
+
+.second.active {
+    transform: translateY(0);
+}
+
+/* CSS for zoom-in animation */
+.third {
+    transform: scale(0.8);
+    transition: transform 1s ease, opacity 1s ease, visibility 1s ease;
+}
+
+.third.active {
+    transform: scale(1);
+}
+
+/* CSS for slide-right animation */
+.fourth {
+    transform: translateX(-50px);
+    transition: transform 1s ease, opacity 1s ease, visibility 1s ease;
+}
+
+.fifth {
+    transform: translateX(-50px);
+    transition: transform 1s ease, opacity 1s ease, visibility 1s ease;
+}
+
+.fourth.active {
+    transform: translateX(0);
+}
+
+.fifth.active {
+    transform: translateX(0);
+}
+
+/* Hover effect for buttons */
+.btn {
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #66CFCF;
+    /* Updated color for the hover effect */
+    transform: scale(1.05);
+    /* Slightly scale up the button on hover */
+    box-shadow: 0px 4px 8px #66BFBF;
+    /* Add a subtle shadow effect on hover */
+}
+
+/* Hover effect for links */
+.footer-link {
+    transition: color 0.2s ease;
+    /* Update link color in the footer */
+    color: #66BFBF;
+    /* Primary color used in the website's gradient background */
+}
+
+.footer-link:hover,
+.navbar-nav a:hover {
+    color: #66BFBF;
+}
+
+.footer-link:hover {
+    color: #0A7C7C;
+    /* Darker shade of the primary color when hovered */
+}
+
+/* Hover effect for images */
+.img-thumbnail {
+    transition: transform 0.2s ease;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+
+/* styles for the profile image */
+.profile-img-container {
+    width: 350px;
+    /* Set the container width to the desired size */
+    height: 350px;
+    /* Set the container height to the desired size */
+    border-radius: 50%;
+    /* Make the container perfectly round */
+    overflow: hidden;
+    /* Hide any content that goes beyond the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    /* Center the container horizontally */
+    transition: transform 0.2s ease;
+}
+
+/* Styles for the profile image */
+.profile-img {
+    width: 100%;
+    height: 100%;
+    /* Make sure the image fills the container */
+    object-fit: cover;
+    /* Scale the image to cover the container while preserving its aspect ratio */
+}
+
+/* Apply hover effect */
+.profile-img-container:hover {
+    transform: scale(1.05);
+    /* Slightly scale up the image container on hover */
+}
+
+/* Define the fade-in animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply custom styling to the progress bars */
+.progress {
+    background-color: #EAF6F6;
+    /* Set a light blue background for the progress bars */
+    border-radius: 10px;
+    /* Add some border radius to give a rounded appearance */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    overflow: hidden;
+    /* Hide any overflow to ensure smooth progress animation */
+    position: relative;
+
+}
+
+.progress-bar {
+    color: #ffffff;
+    /* Set the text color inside the progress bar to white */
+    font-weight: bold;
+    border-radius: 10px;
+    /* Add some border radius to the progress bar itself */
+    transition: width 1s ease-in-out;
+    /* Add a smooth transition for the width change */
+    transition: width 1s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.progress-bar:hover {
+    background-color: #66CFCF;
+    /* Lighter shade of the progress bar color on hover */
+    box-shadow: 0 0 10px #66CFCF, 0 0 20px #66CFCF, 0 0 30px #66CFCF;
+    /* Add glowing effect */
+    z-index: 1;
+    /* Ensure the glowing bar overlaps other bars */
+}
+
+/* Animation for progress bar fill */
+@keyframes fillProgress {
+    from {
+        width: 0;
+    }
+}
+
+.fade-in.active .progress-bar {
+    animation: fillProgress 3s ease-in-out;
+    /* Apply the animation to active (visible) progress bars */
+}
+
+/* Custom colors for each progress bar */
+.progress-bar.bg-teal {
+    background-color: #66BFBF;
+    /* Set the color for Front-End progress bar */
+}
+
+.progress-bar.bg-soft-orange {
+    background-color: #FFA500;
+    /* Set the color for Back-End progress bar */
+}
+
+.progress-bar.bg-soft-blue {
+    background-color: #4169E1;
+    /* Set the color for C++ progress bar */
+}
+
+.progress-bar.bg-soft-purple {
+    background-color: #9370DB;
+}
+
+
+/* Style for the small element */
+.small-element {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #66BFBF;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    /* Add animation for hover effect */
+}
+
+.small-element:hover {
+    transform: scale(1.1);
+    background-color: #a7ffe5;
+    border-radius: 50px;
+    /* Slightly scale up the element on hover */
+}
+
+body>section:nth-child(4)>div>h3 {
+    margin-top: 20px;
+}
+
+body>section.third.fade-in.active>div>div:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+/* Style the links in the navbar */
+.social-media-icon {
+
+    transition: transform 0.3s ease;
+}
+
+/* Apply the hover effect */
+.social-media-icon:hover {
+    color: #66CFCF;
+    /* Updated color for the hover effect */
+    transform: scale(1.2);
+    /* Slightly scale up the link on hover */
+}
+
+body>section.fourth.fade-in.active>div {
+    text-align: center;
+}
+
+/* Custom styles for the "SKILL CHART" heading */
+section.third h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Display text and line in a column */
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #66BFBF;
+    /* Set the color to match the progress bar colors */
+}
+
+/* Add a line below the "SKILL CHART" heading */
+section.third h5::after {
+
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    /* Set the color to match the progress bar colors margin-top: 10px; */
+    /* Adding some space between the text and the line */
+    background-color: #66BFBF;
+    margin-top: 10px;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+section.third.fade-in.active>div {
+    border-radius: 10px;
+}
+
+section.first.fade-in.active>div>header>a>span>h2 {
+    font-family: 'Great Vibes';
+    font-weight: 900;
+    color: #66BFBF;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #45414a;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.first>.container:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0 4px 4px #F4F1DE;
+
+}
+
+.first>.container {
+    background-color: #45414a;
+    border-radius: 10px;
+}
+
+section.projects>div:hover {
+    box-shadow: 0 4px 10px rgba(6, 235, 212, 0.5);
+}
+
+.container.contact-me:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+body>section.third.fade-in.active>div {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+body>section.third.fade-in.active>div:hover {
+    box-shadow: inset 0 0 10px rgba(182, 139, 192, 0.8), inset 0 0 20px rgba(182, 139, 192, 0.6), inset 0 0 30px rgba(182, 139, 192, 0.4);
+    transition: transform 0.6s ease-in-out;
+    transform: scale(0.95);
+}
+
+/* My Projects section */
+
+section.projects>div {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.projects {
+    /* Your existing styles for the projects section */
+    opacity: 0;
+    /* Initial opacity set to 0 */
+    transform: translateY(50px);
+    /* Initial position set to move it down 50px */
+    transition: opacity 1s ease, transform 1s ease;
+    /* Transition for the animation */
+}
+
+.projects>.container:hover {
+    transition: transform 0.6s ease-in-out;
+    transform: scale(0.95);
+}
+
+.projects.active {
+    opacity: 1;
+    /* When the section becomes active, set opacity to 1 */
+    transform: translateY(0);
+    /* When the section becomes active, move it to its original position */
+}
+
+.projects.active>div>div:nth-child(1)>h3 {
+    margin-bottom: 20px;
+    color: #66BFBF;
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 5px;
+    border-top: none;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+body>section.second.fade-in.active>div>div>div {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+body>section.second.fade-in.active>div>div>div:hover {
+    /* box-shadow: inset 0 0 10px rgba(106, 240, 225, 0.958), inset 0 0 20px rgba(182, 139, 192, 0.6), inset 0 0 30px rgba(182, 139, 192, 0.4); */
+    transition: transform 0.6s ease-in-out;
+    transform: scale(0.95);
+}

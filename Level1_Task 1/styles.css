@@ -1,0 +1,217 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.first {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(60deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.9248949579831933) 53%, rgba(252, 176, 69, 1) 100%);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item :hover {
+    color: rgb(9, 9, 9);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9753151260504201) 0%, rgba(97, 234, 235, 1) 0%, rgba(57, 218, 189, 1) 30%, rgba(81, 209, 251, 1) 100%, rgba(87, 139, 233, 1) 100%, rgba(97, 167, 238, 1) 100%, rgba(87, 136, 232, 1) 100%, rgba(98, 160, 238, 1) 100%, rgba(107, 200, 244, 0) 100%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 50px;
+}
+
+.btn {
+    color: white;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(60deg, rgba(131, 58, 180, 1) 0%, rgba(252, 176, 69, 1) 100%);
+    border: none;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    color: black;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9753151260504201) 0%, rgba(97, 234, 235, 1) 0%, rgba(57, 218, 189, 1) 30%, rgba(81, 209, 251, 1) 100%, rgba(87, 139, 233, 1) 100%, rgba(97, 167, 238, 1) 100%, rgba(87, 136, 232, 1) 100%, rgba(98, 160, 238, 1) 100%, rgba(107, 200, 244, 0) 100%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    transition: transform 0.5s;
+    transform: scale(0.8);
+}
+
+body>section.second>div>div {
+    color: black;
+}
+
+p {
+    color: rgb(66, 61, 61);
+}
+
+hr {
+    width: 5%;
+    margin: auto;
+    margin-top: 75px;
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 10px;
+}
+
+section.second>div>div>p {
+    width: 50%;
+    margin: auto;
+}
+
+.second,
+.third,
+.flip-box-front {
+    background-image: linear-gradient(90deg,
+            hsl(0deg 35% 85%) 7%,
+            hsl(0deg 35% 85%) 20%,
+            hsl(0deg 36% 86%) 25%,
+            hsl(0deg 36% 86%) 28%,
+            hsl(0deg 36% 86%) 31%,
+            hsl(0deg 37% 86%) 33%,
+            hsl(0deg 37% 87%) 35%,
+            hsl(0deg 38% 87%) 38%,
+            hsl(0deg 38% 87%) 40%,
+            hsl(0deg 38% 88%) 43%,
+            hsl(359deg 38% 88%) 46%,
+            hsl(356deg 37% 89%) 50%,
+            hsl(353deg 36% 90%) 53%,
+            hsl(349deg 35% 90%) 58%,
+            hsl(345deg 34% 91%) 62%,
+            hsl(339deg 33% 92%) 68%,
+            hsl(332deg 31% 92%) 74%,
+            hsl(323deg 29% 93%) 81%,
+            hsl(310deg 27% 94%) 90%,
+            hsl(293deg 29% 95%) 100%);
+}
+
+.image1 {
+    height: 100px;
+    width: 100px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+body>section.fourth>div>div>div>h2 {
+    margin-top: 20px;
+}
+
+.fourth {
+    background-image: linear-gradient(180deg,
+            hsl(240deg 72% 86%) 0%,
+            hsl(233deg 63% 84%) 6%,
+            hsl(227deg 56% 81%) 11%,
+            hsl(220deg 51% 79%) 17%,
+            hsl(213deg 46% 77%) 22%,
+            hsl(206deg 43% 74%) 28%,
+            hsl(200deg 40% 71%) 33%,
+            hsl(198deg 39% 73%) 39%,
+            hsl(195deg 39% 75%) 44%,
+            hsl(192deg 38% 77%) 50%,
+            hsl(189deg 37% 79%) 56%,
+            hsl(185deg 37% 81%) 61%,
+            hsl(180deg 36% 83%) 67%,
+            hsl(180deg 29% 85%) 72%,
+            hsl(180deg 20% 87%) 78%,
+            hsl(180deg 8% 89%) 83%,
+            hsl(0deg 7% 90%) 89%,
+            hsl(0deg 29% 92%) 94%,
+            hsl(0deg 61% 94%) 100%);
+}
+
+section.fourth>div {
+    padding-top: 100px;
+}
+
+body>section.second>div {
+    border: none;
+    border-radius: 0;
+}
+
+.zoom {
+    transition: transform 0.4s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+
+/* ADDING FLIP BOX */
+.flip-box {
+    background-color: transparent;
+    height: 100px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/*position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    background-color: #F2D8D8;
+    transform: rotateX(180deg);
+}
+
+section.second>div>div>div>div.flip-box-back>p {
+    margin-top: 16px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.first>div>header>a:hover {
+    transition: transform 0.5s;
+    transform: scale(1.2);
+}
+
+section.first>div>header>ul>li:hover {
+    transition: transform 0.5s;
+    transform: scale(0.8);
+}
